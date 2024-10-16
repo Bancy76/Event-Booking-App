@@ -1,0 +1,47 @@
+.event-list {
+    padding: 20px;
+  }
+  
+  .event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+  }
+  
+  .event-card {
+    background-color: #f0f0f0; /* Background color for the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner padding */
+    width: 200px; /* Fixed width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.3s; /* Animation on hover */
+  }
+  
+  .event-card:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+  }
+  
+  .event-title {
+    color: #3498db; /* Color for the title */
+    font-size: 18px; /* Font size for title */
+    font-weight: bold; /* Make title bold */
+    text-decoration: none; /* Remove underline from link */
+  }
+  
+  .event-description {
+    color: #555; /* Color for the description */
+    font-size: 14px; /* Font size for description */
+  }
+  
+  .search-input {
+    padding: 10px;
+    margin: 20px 10px;
+    width: 200px;
+  }
+  
+  .category-select {
+    padding: 10px;
+    margin: 20px 10px;
+    width: 150px;
+  }
+  

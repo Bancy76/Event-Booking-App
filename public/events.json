@@ -1,0 +1,23 @@
+
+
+[
+  {
+    "id": 1,
+    "title": "Concert 2024",
+    "description": "A great musical event!",
+    "category": "Music",
+    "date": "2024-11-10",
+    "availableSeats": 50,
+    "price": 20
+  },
+  {
+    "id": 2,
+    "title": "Football Match",
+    "description": "Exciting football match.",
+    "category": "Sports",
+    "date": "2024-10-22",
+    "availableSeats": 0,
+    "price": 15
+  }
+  
+]
